@@ -1,0 +1,58 @@
+html {
+  min-height:100%
+}
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(to bottom right, mediumpurple, lightblue)
+}
+a:hover {
+  color: pink;
+}
+h4 {
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  text-align: center;
+}
+.centered-list li {
+  text-align: center;
+}
+.zebra tr:nth-child(even) {
+  background-color: lightblue;
+}
+.zebra tr:nth-child(odd) {
+  background-color: mediumpurple;
+}
+.header {
+  text-align: center;
+  margin-right: -100px;
+}
+.grid-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+.flex-vertical-center {
+  display: flex;
+  align-items: center;
+}
+.selfie {
+  float: right;
+  width: 100px;
+  height: 138px;
+}
+.quote {
+  align-items: center;
+  text-align: center;
+}
+.keyword {
+  color: red;
+  font-weight: bold;
+}
